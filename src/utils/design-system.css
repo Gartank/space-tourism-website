@@ -1,5 +1,5 @@
 @import url("./reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 * {
     /*colors*/
@@ -25,7 +25,7 @@
 
 /*text presets*/
 .text-preset-1 {
-    font-family: Bellefair;
+    font-family: "Bellefair";
     font-size: 144px;
     line-height: 171.9%;
     letter-spacing: 0;
@@ -74,14 +74,14 @@
 }
 
 .text-preset-8 {
-    font-family: "Bellefair";
+    font-family: "Barlow Condensed";
     font-size: 16px;
     line-height: 19.2%;
     letter-spacing: 2px;
 }
 
 .text-preset-9 {
-    font-family: "Bellefair";
+    font-family: "Barlow";
     font-size: 18px;
     line-height: 180%;
     letter-spacing: 0;
