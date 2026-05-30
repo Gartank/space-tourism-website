@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Header } from "./components/layout/header";
-import "./App.css";
+import Header from "./components/layout/Header";
+import logo from "./assets/shared/logo.svg"
 
 function App() {
     return (
