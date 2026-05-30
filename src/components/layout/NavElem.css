@@ -1,0 +1,9 @@
+@import url("../../utils/design-system.css");
+
+.link {
+
+    &>.link__index {
+        margin-inline-end: var(--spacing-200);
+        font-weight: 600;
+    }
+}

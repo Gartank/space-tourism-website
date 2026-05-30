@@ -1,0 +1,8 @@
+@import url("../../utils/design-system.css");
+
+.nav__list {
+    display: flex;
+
+    gap: var(--spacing-600);
+}
+

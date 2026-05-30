@@ -1,17 +1,16 @@
-import { logo } from "../../assets/shared/logo.svg";
+import NavElem from "./NavElem"
+import "./Nav.css";
 
-export function Nav({ actualPage, pageList }) {
+export function Nav({ actualPage, pageList = [] }) {
     const listElement = pageList.map((elem) => {
-        <li className={`list__link`}>
-            <span className='link__index'>
-                {`0${elem.index}`} {elem.title}
-            </span>
-        </li>;
+        return (
+            <NavElem elem={elem} actualPage={actualPage}/>
+        )
     });
     return (
         <>
             <nav className='header__nav'>
-                <ol className='nav__list'>{listElement}</ol>
+                <ul className='nav__list'>{listElement}</ul>
             </nav>
         </>
     );

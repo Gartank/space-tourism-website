@@ -1,7 +1,7 @@
-import Nav from "./nav.jsx";
+import Nav from "./Nav.jsx";
+import logo from "../../assets/shared/logo.svg";
 
-const navLinks = {
-    links: [
+const navLinks = [
         {
             title: "Home",
             index: 0,
@@ -22,18 +22,20 @@ const navLinks = {
             index: 3,
             link: "",
         },
-    ],
-};
+];
 
-function Header() {
+export function Header() {
     return (
-        <>
-            <header>
-                <a href='' className='nav__return-to-main'>
-                    <img src={logo} alt='' />
-                </a>
-                <Nav />
-            </header>
-        </>
+        <header>
+            <a href='' className='nav__return-to-main'>
+                <img src={logo} alt='si' />
+            </a>
+            <Nav
+                actualPage={"Home"}
+                pageList={navLinks}
+            />
+        </header>
     );
 }
+
+export default Header;
