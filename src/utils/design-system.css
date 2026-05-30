@@ -1,0 +1,81 @@
+@import url("./reset.css");
+
+* {
+    /*colors*/
+    --blue-900: rgb(11, 13, 23);
+    --blue-300: rgb(208, 214, 249);
+    --white: white;
+
+    /*spacing*/
+    --spacing-1600: 128px;
+    --spacing-1200: 96px;
+    --spacing-1000: 80px;
+    --spacing-800: 64px;
+    --spacing-600: 48px;
+    --spacing-500: 40px;
+    --spacing-400: 32px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+    --spacing-20: 2px;
+}
+
+/*text presets*/
+.text-preset-1 {
+    font-family: "Bellefair Regular";
+    font-size: 144px;
+    line-height: 171.9%;
+    letter-spacing: 0;
+}
+.text-preset-2 {
+    font-family: "Bellefair Regular";
+    font-size: 100px;
+    line-height: 114.6%;
+    letter-spacing: 0;
+}
+.text-preset-3 {
+    font-family: "Bellefair Regular";
+    font-size: 56px;
+    line-height: 64.2%;
+    letter-spacing: 0;
+}
+.text-preset-4 {
+    font-family: "Bellefair Regular";
+    font-size: 32px;
+    line-height: 36.7%;
+    letter-spacing: 0;
+}
+.text-preset-5 {
+    font-family: "Barlow Condensed Regular";
+    font-size: 28px;
+    line-height: 33.6%;
+    letter-spacing: 4px;
+}
+.text-preset-6 {
+    font-family: "Bellefair Regular";
+    font-size: 28px;
+    line-height: 32.1%;
+    letter-spacing: 0;
+}
+.text-preset-7 {
+    font-family: "Bellefair Regular";
+    font-size: 14px;
+    line-height: 16.8%;
+    letter-spacing: 2px;
+}
+.text-preset-8 {
+    font-family: "Bellefair Regular";
+    font-size: 16px;
+    line-height: 19.2%;
+    letter-spacing: 2px;
+}
+.text-preset-9 {
+    font-family: "Bellefair Regular";
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+
+
